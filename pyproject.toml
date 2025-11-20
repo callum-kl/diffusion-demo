@@ -3,12 +3,16 @@ name = "diffusion-demo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
-    "black>=25.11.0",
-    "flax>=0.8.5",
-    "jax>=0.4.30",
-    "matplotlib>=3.9.4",
+    "flax>=0.12.1",
+    "jax[cuda12,cuda13]>=0.8.1",
+    "jaxlib>=0.8.1",
+    "matplotlib>=3.10.7",
     "pandas>=2.3.3",
-    "scikit-learn>=1.6.1",
+    "pip>=25.3",
+    "scikit-learn>=1.7.2",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+    "torchvision>=0.24.1",
 ]
